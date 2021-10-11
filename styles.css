@@ -236,6 +236,17 @@ header nav .container .justify-content-end ul li .nav-link {
     line-height: 2.3rem;
 }
 
+#career .career-form {
+    position: relative;
+}
+
+#career .career-form form {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50%, -3%);
+}
+
 #career .career-form form .form-group .resume-label {
     color: #fff;
     font-size: 1.5rem;
