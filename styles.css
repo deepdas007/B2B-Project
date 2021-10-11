@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rozha One', serif;
+
+}
+
+header nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: 'Rozha One', serif;
+    background: #fff;
+}
+
+header nav .navbar-brand {
+    width: 136px;
+    height: 133px;
+    margin-left: 32px;
+}
+
+header nav .container .justify-content-end ul {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+header nav .container .justify-content-end ul li .nav-link {
+    color: #0E0000;
+}
+
+#carouselSection {
+    margin-top: 10%;
+}
+
+#carouselSection #carouselImgs .carousel-item img{
+    width: 100% !important;
+}
+
+#carouselSection .carousel .carousel-control-prev span,
+#carouselSection .carousel .carousel-control-next span{
+    background-color: #0E0000;
+    color: #0E0000;
+}
+
+#aboutUs {
+    margin: 8% 0;
+}
+
+#aboutUs .container .about-us-img-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+#aboutUs .container .about-us-img-div .about-us-image {
+    position: absolute;
+    top: 6%;
+    right: 18%;
+    /* width: 24.063rem;
+    height: 27rem; */
+}
+
+/* #aboutUs .container .about-us-text-div{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} */
+
+#aboutUs .container .about-us-text-div .card-body {
+    background: #EA5C3D;
+    color: #fff;
+    width: 806px;
+    border-radius: 10px;
+}
+
+#aboutUs .container .about-us-text-div .card-body .card-title {
+    font-family: 'Rozha One', serif;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 5.688rem;
+    text-transform: uppercase;
+}
+
+#aboutUs .container .about-us-text-div .card-body .card-text {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+#visionMission {
+    height: 70vh;
+    background: #515151;
+    padding-top: 3%;
+}
+
+
+#visionMission .card {
+    background: none;
+    border: 0;
+}
+
+#visionMission .card .card-body {
+    position: relative;
+    text-align: center;
+}
+
+#visionMission .card .card-head {
+    font-family: 'Rozha One', serif;
+    font-size: 4rem;
+    line-height: 5.688rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 12%;
+}
+
+#visionMission .card .card-head span {
+    color: #EA5C3D;
+}
+
+#visionMission .card .card-body .card-text {
+    font-family: 'Rozha One', serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 3.195rem;
+    color: #fff;
+}
+
+
+#visionMission .card .card-body .card-img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#visionMission .card .mission-card .card-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#visionMission .card .card-body .card-img img {
+    /* width: 33.875rem;
+    height: 24.938rem; */
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+#visionMission .card .mission-card .card-img img {
+    /* width: 33.875rem;
+    height: 24.938rem; */
+    width: 100%;
+    height: 29rem;
+    border-radius: 10px;
+}
+
+#products{
+    margin: 4% 0;
+}
+#products .container .products-text{
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 5.688rem;
+    text-transform: uppercase;
+
+}
+#products .container .products-text span{
+    color: #EA5C3D;
+
+}
+#products .container .product-imgs-1 img, 
+#products .container .product-imgs-2 img{
+    padding: 1.5rem;
+}
+
+/* #products .container .products-btn button{ */
+.btn {
+    color: #fff;
+    background-color: #EA5C3D;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#contactUs .container .contact-us-img-section img {
+    width: 39.75rem;
+    height: 38.813rem;
+}
+
+#contactUs .container .contact-us-heading h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+#contactUs .container .contact-us-heading h1 span {
+    color: #EA5C3D;
+}
+
+#career{
+    background: #515151;
+    padding: 2%;
+    margin: 5% 0;
+}
+
+#career .head{
+    margin-bottom: 3%;
+}
+
+#career .head p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 5.688rem;
+    text-transform: uppercase;
+}
+
+#career .head p span{
+    color: #EA5C3D;
+}
+
+#career .career-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+#career .career-form form .form-group .resume-label {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    text-transform: uppercase;
+}
+
+#career .career-form form .form-group input {
+    width: 31.375rem;
+    height: 3.625rem;
+    box-shadow: -10px 5px 10px rgba(255, 255, 255, 0.35);
+    font-size: 1.5rem;
+}
+
+#career .career-form  form .career-btn-group .btn-default {
+    width: 8rem;
+    box-shadow: -10px 5px 10px rgba(255, 255, 255, 0.35);
+}
+
+footer {
+    background: #515151;
+}
+
+footer .container a {
+    text-decoration: none;
+}
+
+footer .container .logo-column span {
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 4.438rem;
+}
+
+footer .container .logo-column span .at-the-rate {
+    color: #EA5C3D;
+}
+
+footer .container .logo-column a img {
+    width: 116px;
+    height: 116px;
+}
+
+footer .container .navbar-column nav ul li a {
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 3.341rem;
+}
+
+footer .container .copyright-column {
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.688rem;
+}
+
+footer .container .copyright-column .copyright-span {
+    color: #EA5C3D;
+}
